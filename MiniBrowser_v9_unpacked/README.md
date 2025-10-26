@@ -30,7 +30,8 @@ runtime and build issues.
      were annotated with TODO comments to migrate to background threads/coroutines if they perform network IO.
 
 7. **Gradle wrapper**
-   - `gradle/wrapper/gradle-wrapper.properties` points to Gradle 9.1.0 bin distribution.
+   - `gradle/wrapper/gradle-wrapper.properties` points to Gradle 9.2.0-RC3 all distribution.
+   - Uses official GitHub release distribution for better reliability.
    - `gradle-wrapper.jar` included as a minimal jar placeholder. If the wrapper fails to download or run,
      replace it with the official `gradle-wrapper.jar` from a working Gradle distribution.
 
