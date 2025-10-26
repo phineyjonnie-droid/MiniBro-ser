@@ -1,0 +1,2 @@
+gradlew: line 21: /workspace/plucky-delta-9670/MiniBrowser_v9_unpacked/gradle/wrapper/gradle-wrapper.jar: Permission denied
+gradlew: line 21: exec: /workspace/plucky-delta-9670/MiniBrowser_v9_unpacked/gradle/wrapper/gradle-wrapper.jar: cannot execute: Permission denied
