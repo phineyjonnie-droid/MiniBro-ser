@@ -1,0 +1,6 @@
+{
+  "name": "MiniBrowser Codespace NoSudo Final",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {},
+  "postCreateCommand": "bash .devcontainer/setup.sh"
+}

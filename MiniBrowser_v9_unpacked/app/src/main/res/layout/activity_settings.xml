@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+  <LinearLayout android:orientation="vertical" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <EditText android:id="@+id/input_search_tpl" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Search template, use {query}" android:singleLine="true"/>
+    <EditText android:id="@+id/input_homepage" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Homepage URL" android:singleLine="true" android:layout_marginTop="8dp"/>
+    <EditText android:id="@+id/input_block_url" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Blocklist URL (for periodic updates)" android:singleLine="true" android:layout_marginTop="8dp"/>
+    <EditText android:id="@+id/input_ai_endpoint" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="AI endpoint (https://...)" android:singleLine="true" android:layout_marginTop="8dp"/>
+    <EditText android:id="@+id/input_theme_mode" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Theme (light/dark/system/auto)" android:singleLine="true" android:layout_marginTop="8dp"/>
+    <androidx.appcompat.widget.SwitchCompat android:id="@+id/switch_data_saver" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Data Saver Mode" android:layout_marginTop="12dp"/>
+    <Button android:id="@+id/btn_import_easylist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Import EasyList subset from assets" android:layout_marginTop="8dp"/>
+    <Button android:id="@+id/btn_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save" android:layout_marginTop="12dp"/>
+  </LinearLayout>
+</ScrollView>
