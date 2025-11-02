@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HD Video Player</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="player-container">
+        <video id="videoPlayer" class="video-player" controls>
+            <source src="placeholder_hd_video.mp4" type="video/mp4">
+            Your browser does not support the video tag. Please use a modern browser.
+        </video>
+        <div class="custom-controls">
+            <button id="playPauseBtn" class="control-btn">Play</button>
+            <input type="range" id="volumeSlider" class="slider" min="0" max="1" step="0.01" value="0.8">
+            <button id="fullScreenBtn" class="control-btn">Fullscreen</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
